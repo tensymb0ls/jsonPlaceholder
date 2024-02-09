@@ -1,0 +1,20 @@
+.navigation-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+    padding: 20px 0;
+    font-size: 24px;
+}
+
+.navigation-list li {
+    opacity: .7;
+    padding: 10px;
+    transition: .3s ease;
+}
+
+.navigation-list li:hover {
+    cursor: pointer;
+    opacity: 1;
+    background-color: #7e7e7e6b;
+}

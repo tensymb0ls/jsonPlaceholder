@@ -1,0 +1,59 @@
+.info-data {
+    padding: 20px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid grey;
+    padding: 10px;
+}
+
+.post p {
+    margin-top: 15px;
+}
+
+.post__title {
+    font-weight: 600;
+
+}
+
+.email {
+    font-size: 14px;
+    margin: 15px 0 -10px 15px;
+    font-style: italic;
+
+}
+
+.photo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-gap: 32px;
+    grid-auto-flow: dense;
+}
+
+.photo img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.photo p {
+    font-style: italic;
+}
+
+.expanded-photo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000b6;
+}
+
+.expanded-photo img {
+    width: 600px;
+    height: 600px;
+}
