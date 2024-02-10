@@ -1,11 +1,11 @@
-# Rsbuild Project
+# Json placeholder with react Class components, Rsbuild Project
 
 ## Setup
 
 Install the dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 ## Get Started
@@ -13,17 +13,5 @@ pnpm install
 Start the dev server:
 
 ```bash
-pnpm dev
-```
-
-Build the app for production:
-
-```bash
-pnpm build
-```
-
-Preview the production build locally:
-
-```bash
-pnpm preview
+npm start dev
 ```

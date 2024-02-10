@@ -1,9 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 150%;
+}
+
+.wrapper {
     width: max(380px, 50vw);
     margin: 50px auto;
     border-radius: 8px;

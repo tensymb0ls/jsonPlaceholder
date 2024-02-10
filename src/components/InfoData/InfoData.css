@@ -19,7 +19,7 @@
 }
 
 .email {
-    font-size: 14px;
+    font-size: 12px;
     margin: 15px 0 -10px 15px;
     font-style: italic;
 
@@ -56,4 +56,20 @@
 .expanded-photo img {
     width: 600px;
     height: 600px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.users p {
+    font-style: normal;
 }
